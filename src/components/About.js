@@ -5,7 +5,7 @@ import {  faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook,faGithub,faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 function About() {
     return (
-        <div className="about-section paddingTB60 " id="About">
+        <div className="about-section paddingTB60 bg-dark " id="About">
             <div className="container mt-5">
                 <div className="row ">
                 <div className="col-12 col-md-6">
@@ -19,7 +19,6 @@ function About() {
                             <h3>Lorem ipsum dolor sit amet </h3>
                             <p className="about-paddingB">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor. Proin pretium purus a lorem ornare </p>
                             <p>sed lobortis pulvinar. Integer laoreet mi id eros porta euismod. Suspendisse potenti. Nulla eros mauris, convallis et sem tempus, viverra hendrerit sapien</p>
-                            <h3>Follow me on </h3>
                             <div className="about-icons">
                                 <ul >
                                     <li><a href="https://www.facebook.com/chiranjeebnayak.371"><FontAwesomeIcon icon={faFacebook} className="social-icons" id="social-fb"></FontAwesomeIcon></a> </li>

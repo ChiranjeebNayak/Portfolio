@@ -16,22 +16,22 @@ export default function ContactUs() {
     }
 
     return(
-        <div className="contact-section paddingTB60" id="Contact">
+        <div className="contact-section paddingTB60 bg-dark" id="Contact">
             <div className="container">
                 <div className="contact-heading my-auto mt-4">Contact Me</div><hr className="mx-auto"></hr>
             <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
+                    <div className="row pt-5 mx-auto text-center">
                         <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="Name" name="name"/>
+                            <input type="text" className="form-control" placeholder="Name" name="name" autocomplete="off"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+                            <input type="email" className="form-control" placeholder="Email Address" name="email" autocomplete="off"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                            <input type="text" className="form-control" placeholder="Subject" name="subject" autocomplete="off"/>
                         </div>
                         <div className="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your Message" name="message"></textarea>
                         </div>
                         <div className="col-8 pt-3 mx-auto">
                             <input type="submit" className="btn btn-warning" value="Send Message"></input>

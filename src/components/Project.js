@@ -2,9 +2,9 @@ import React from 'react'
 
 function Project() {
     return (
-        <div className=" paddingTB60" id="Projects">
+        <div className=" paddingTB60 bg-dark" id="Projects">
             <div className="container mx-auto mt-2 project-item">
-                <div className="project-heading my-auto">Projects</div><hr className="mx-auto"></hr>
+                <div className="project-heading my-auto">Projects<hr></hr></div>
                 <div className="row">
                     <div className="col-md-4 m">
                         <div className="card" style={{ width: "18rem" }}>

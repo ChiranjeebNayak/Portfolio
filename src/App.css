@@ -38,7 +38,7 @@
 }
 :root{
   --primary-white: white;
-  --primary-whitesmoke:rgb(95, 93, 93);
+  --primary-whitesmoke:rgb(229, 228, 226);
   --primary-orange:  orange;
   --primary-skyorange: rgb(255, 167, 5);
   --primary-dark: rgb(255,255,255,0);
@@ -173,7 +173,7 @@ nav .nav-link {
   padding:3.75rem 0rem 3.75rem 0rem;
 }
 .about-title{
-  color: var(--primary-dark);
+  color: var(--primary-white);
 }
 .about-img{
   padding: 2rem;
@@ -198,11 +198,11 @@ nav .nav-link {
    font-family:'Roboto', sans-serif;
   }
 .about-title h3 {
-  color: var(--primary-black);
+  color: var(--primary-white);
    font-size:1.4375rem;
   }
 .about-title p {
-  color: var(--primary-black);
+  color: var(--primary-whitesmoke);
   font-size: 1.4rem;
   line-height: 1.4;
   margin: 0 0 0.9375rem;
@@ -324,8 +324,61 @@ nav .nav-link {
     margin:20px;
  }
 }
+/* *************************EXPERIENCE*************************************** */
 
 
+.experience .title {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: var(--primary-white);
+    margin-top: 1.5em;
+  }
+}
 /* *************************CONTACT*************************************** */
 
 .contact-heading{
@@ -335,9 +388,28 @@ nav .nav-link {
   font-weight: bold;
   font-size: 2rem;
 }
+input[type=text],input[type=email]{
+  background: transparent;
+  border: 2px solid rgb(156, 151, 151);
+  color: var(--primary-white);
+}
+input[type=text]:focus,input[type=email]:focus{
+  background: transparent;
+  border: 2px solid rgb(153, 149, 149);
+  color: var(--primary-white);
+}
+textarea{
+  background: transparent !important;
+  color: var(--primary-white) !important;
+}
+textarea:focus{
+  color: var(--primary-white) !important;
+}
 
 
-/* *************************CONTACT****************************************/
+
+
+/* *************************Footer****************************************/
 .footer-para{
   font-size: 1.2rem;
 }
@@ -347,3 +419,15 @@ nav .nav-link {
   padding: 0rem; 
   font-size:1.875rem;
 }
+.footer-logo{
+  margin-right: 0.08rem;
+  font-size:1.2rem;
+  color: var(--primary-orange) ;
+}
+
+.footer-link a{
+  text-decoration: none;
+}
+
+
+
