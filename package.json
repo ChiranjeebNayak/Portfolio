@@ -19,6 +19,7 @@
     "react-scripts": "4.0.3",
     "react-typed": "^1.2.0",
     "react-vertical-timeline-component": "^3.3.3",
+    "reactjs-popup": "^2.0.5",
     "tsparticles": "^1.30.4",
     "web-vitals": "^1.1.2"
   },

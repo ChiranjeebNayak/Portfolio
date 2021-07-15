@@ -27,7 +27,6 @@ function Education() {
               element.buttonText !== undefined &&
               element.buttonText !== null &&
               element.buttonText !== "";
-
             return (
               <VerticalTimelineElement
                 key={element.key}
