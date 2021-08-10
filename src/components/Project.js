@@ -25,7 +25,7 @@ function Project() {
                             <img src={blog} className="card-img-top" alt="..." style={{height :"30vh"}}/>
                             <div className="card-body">
                                 <h5 className="card-title">Blog</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">React,RestAPI,MySQL,Expressjs,Nodejs</h6>
+                                <h6 className="card-subtitle mb-2 text-muted">React,RestAPI,MySQL,Expressjs</h6>
                                 <p className="card-text">A Responsive React blog website with some features like login,signup, post (CRUD),comment.  </p>
                                 <a href="#" className="btn  mr-2"><i className="fas fa-link"></i> Visit Site</a>
                                 <a href="https://github.com/ChiranjeebNayak/-e-Blog-" className="btn"><i className="fab fa-github"></i> Github</a>
