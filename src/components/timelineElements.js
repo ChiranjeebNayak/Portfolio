@@ -2,7 +2,7 @@ let timelineElements = [
   {
     id: 1,
     title: "Frontend Developer",
-    location: "Shopsky PVT LTD",
+    location: "Shopsky PVT LTD,Jeypore",
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
     buttonText: "Certificate",
@@ -12,7 +12,7 @@ let timelineElements = [
   {
     id: 2,
     title: "Software Developer ",
-    location: "Skystead, Craonia",
+    location: "SinoxFx,Lucknow",
     description:
       "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
     buttonText: "View Backend Projects",
