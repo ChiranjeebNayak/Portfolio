@@ -422,6 +422,9 @@ textarea:focus{
 
 
 /* *************************Footer****************************************/
+footer{
+  color: var(--primary-orange) !important;
+}
 .footer-para{
   font-size: 1.2rem;
 }
@@ -437,8 +440,12 @@ textarea:focus{
   color: var(--primary-orange) ;
 }
 
-.footer-link a{
+
+.footer-link p  a{
   text-decoration: none;
+}
+.footer-link p:hover{
+  color: var(--primary-orange);
 }
 
 

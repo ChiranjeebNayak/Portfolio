@@ -45,7 +45,7 @@ function Experience() {
                                         {element.location}
                                     </h5>
                                     <p id="description">{element.description}</p>
-                                    {showButton && (
+                                    {/* {showButton && (
                                         <a
                                             className={`button ${isWorkIcon ? "workButton" : "schoolButton"
                                                 }
@@ -54,7 +54,7 @@ function Experience() {
                                         >
                                             {element.buttonText}
                                         </a>
-                                    )}
+                                    )} */}
                                 </VerticalTimelineElement>
                             );
                         })}

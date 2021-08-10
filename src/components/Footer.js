@@ -5,7 +5,7 @@ import {  faEnvelopeOpen, faHandsHelping, faMapMarker, faMapPin, faPhone } from 
 function Footer() {
     return (
         <div className="footer-section bg-dark">
-            <footer className="container text-center text-lg-start text-muted">
+            <footer className="container text-center text-lg-start text-white">
                 {/* <!-- Section: Social media --> */}
                 <section
                     className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -46,7 +46,7 @@ function Footer() {
                             {/* <!-- Grid column --> */}
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 {/* <!-- Content --> */}
-                                <h6 className="text-uppercase fw-bold mb-4 ">
+                                <h6 className="text-uppercase fw-bold mb-4" style={{color:"orange"}}>
                                     <FontAwesomeIcon icon={faHandsHelping} className="footer-logo" />Chiranjeeb Nayak
                                 </h6>
                                 <p>
@@ -58,7 +58,7 @@ function Footer() {
                             {/* <!-- Grid column --> */}
                             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer-link">
                                 {/* <!-- Links --> */}
-                                <h6 className="text-uppercase fw-bold mb-4">
+                                <h6 className="text-uppercase fw-bold mb-4" style={{color:"orange"}}>
                                     Links
                                 </h6>
                                 <p>
@@ -80,13 +80,12 @@ function Footer() {
                             {/* <!-- Grid column --> */}
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                 {/* <!-- Links --> */}
-                                <h6 className="text-uppercase fw-bold mb-4">
+                                <h6 className="text-uppercase fw-bold mb-4" style={{color:"orange"}}>
                                     Contact
                                 </h6>
                                 <p><FontAwesomeIcon icon={faMapMarker} /> Naripur,Bhadrak,Odisha,India</p>
                                 <p><FontAwesomeIcon icon={faMapPin} /> 756100</p>
                                 <p><FontAwesomeIcon icon={faEnvelopeOpen} /> ChiranjeebNayak.37@gmail.com</p>
-                                <p><FontAwesomeIcon icon={faChrome} /> <a href="#">info@example.com</a></p>
                                 <p><FontAwesomeIcon icon={faPhone} /> +91 6372117831</p>
                             </div>
                             {/* <!-- Grid column --> */}
